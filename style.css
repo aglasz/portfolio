@@ -48,18 +48,23 @@
     overflow: hidden;
     padding-left: .5em;
     padding-right: .5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: #e0f0ea;
     
 }
 
 .contact {
     text-align: left;
     padding-left: 2em;
+    padding-top: 1em;
     overflow: auto;
     border-radius: 5%;
 }
 
 .body {
         background-color: #e0f0ea;
+        position: inherit;
         
     }
 
