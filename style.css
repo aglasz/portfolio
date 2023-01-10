@@ -1,3 +1,4 @@
+
 .header {
     background-color:#95adbe;
     background: radial-gradient(circle, #95adbe 75%, #3c2a4d 100%);
@@ -9,53 +10,92 @@
     position: fixed;
     overflow: auto;
     clip-path: polygon(0% 0%, 18% 0, 30% 44%, 20% 100%, 0% 100%);
-    z-index: -1;}
+    z-index: -1;
+    }
+
 
 
 .framed {
     box-shadow: -50px -50px 0 -40px #3c2a4d, 50px 50px 0 -40px #3c2a4d;
+    border-radius: 5%;
 }
 
 
 .inner {
     padding-left: 2em;
     padding-top: 6em;
+}
 
+.inner img {
+    box-shadow: -50px -50px 0 -40px #3c2a4d, 50px 50px 0 -40px #3c2a4d;
+    border-radius: 5%;
+}
+
+
+.container1 {
+    background-color: #95adbe33;
+    width: 30%;
+    display: block;
+    box-shadow: 5px 5px 10px 2px grey;
+    padding-bottom: 1em;
+    text-align: center;
+    margin-left: 25%;
+    border-radius: 5%;
+}
+
+.container1 h1 {
+    background-color: #3c2a4db4;
+    overflow: hidden;
+    padding-left: .5em;
+    padding-right: .5em;
+    
 }
 
 .contact {
     text-align: left;
     padding-left: 2em;
+    overflow: auto;
+    border-radius: 5%;
 }
 
 .body {
         background-color: #e0f0ea;
+        
     }
 
 .section1{
     text-align: center;
+    width: 75%;
+    margin-left: 25%;
+    border-radius: 5%;
 }
 
 .section2 {
     padding-top: 5em;
     text-align: center;
-    padding-left: 12em;
-    padding-right: 5em;}
+    border-radius: 5%;
+    padding-right: 5em;
+    width: 75%;
+    margin-left: 25%;}
 
 .section3{
     text-align: center;
+    width: 75%;
+    margin-left: 25%;
+    border-radius: 5%;
     }
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
+    /* padding: 1em; */
+    /* font-size: 30px; */
+    width: 1em;
     text-align: center;
     text-decoration: none;
-    border-radius: 25%;
-    background-color: #e0f0ea;
+    /* border-radius: 25%; */
+    /* background-color: #e0f0ea; */
     color: #3c2a4d;
   }
+
 
 .dropbtn {
         background-color: #95adbe;
@@ -95,3 +135,30 @@
 .dropdown:hover .dropdown-content {display: block;}
       
 .dropdown:hover .dropbtn {background-color: #95adbe;}
+
+
+@media only screen and (max-width: 620px) {
+    .header, .body, .inner, .contact, .section1, .section2, .section3, .container1 {
+    width: 100%;
+    display: block;
+}
+    
+.header {
+    width:fit-content;
+background-color: #95adbe;
+display: none;}
+
+.body, .section3, .section2, .section1 .container1 {
+    margin-left: 0%; 
+    padding-top: 1em; 
+    margin-right: 50%;}
+
+.section2 img{
+    width:50%;
+}
+.section2 {
+margin: 10%;
+display: block;}
+    
+    
+}
