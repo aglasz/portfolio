@@ -29,6 +29,7 @@
     position:auto;
     clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 50%, 0% 0%);
     z-index: -1;
+    padding-left: 1em;
   }
 
   .col-2 {
@@ -219,4 +220,26 @@
     z-index: 4;
   }
 
+
+
+  
+  @media only screen and (max-width: 700px) {
+
+    body {flex-direction: column;}
+    .section2 {width: 300px;
+    margin-left: 3em;}
+    .section2 img {width: 250px;}
+    .dropbtn {margin-left: 0px;
+    }
+    .section3 {width: 300px; 
+    flex-direction: column;}
+    .col-1 {clip-path: inset(18% 0 4% 0); text-align: center;}
+    .contact {text-align: center;}
+    .right{ display: none;
+     }
+    
+
+}
+    
+    
   
