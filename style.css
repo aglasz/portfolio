@@ -180,6 +180,7 @@ padding-left: 2em;}
   color:#e0f0ea;
   font-weight: bolder;
   padding: 5em;
+  text-align: center;
 }
 
 .icon img {scale: 110%;}
@@ -299,13 +300,12 @@ padding-left: 2em;}
       clip-path: inset(18% 0 4% 0); text-align: center;}
     .dropdown {width: 600px; margin-top: 0%; margin-right: 0%; position: fixed;}
     
- 
-    .section2 {width: 55%;
+ .section2 {width: 55%;
     margin-left: 1em;
   padding-bottom: 1em;}
     .section2 img {width: 425px;}
     .section2 {width: 95%;}
-    .dropbtn {margin-left: 0px;
+    .dropbtn {margin-left: 0px; z-index: 2;
     }
     .section3 {width: 300px; 
     flex-direction: row;
@@ -328,4 +328,4 @@ text-align: center;}
 height: 80px; padding: -1px;
   }
 .more {display: none;}
-}
+} 
