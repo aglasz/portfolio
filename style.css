@@ -290,7 +290,7 @@ padding-left: 2em;}
 
 
     
-   /* @media screen and (max-width: 600px) 
+   @media screen and (max-width: 600px) 
   
   {
 
@@ -327,4 +327,4 @@ text-align: center;}
 height: 80px; padding: -1px;
   }
 .more {display: none;}
-}  */
+} 
