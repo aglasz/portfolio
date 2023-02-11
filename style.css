@@ -293,7 +293,7 @@ padding-left: 2em;}
 
 
     
-  @media only screen and (max-width: 900px) {
+  @media screen and (max-width: 600px) {
 
     body {flex-direction: column; background-color: rgb(165, 195, 185);}
     .col-1 {width: 900px;
