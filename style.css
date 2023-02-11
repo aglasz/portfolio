@@ -299,14 +299,14 @@ padding-left: 2em;}
       clip-path: inset(18% 0 4% 0); text-align: center;}
     .dropdown {width: 600px; margin-top: 0%; margin-right: 0%; position: fixed;}
     
- .section2 {width: 55%;
+ .section2 {width: auto;
     margin-left: 1em;
   padding-bottom: 1em;}
     .section2 img {width: 425px;}
     .section2 {width: 95%;}
     .dropbtn {margin-left: 0px; z-index: 2;
     }
-    .section3 {width: 300px; 
+    .section3 {width: auto; 
     flex-direction: row;
   margin-left: 10%;}
   
@@ -320,7 +320,7 @@ padding-left: 2em;}
 text-align: center;}
 .containerz {width: 95%; 
   } 
-.container2 {width: 95%;text-align: center;}
+.container2 {width: auto;text-align: center;}
   .icon span{transform: translateX(1); 
   padding-left: 7%;} 
 .icon img{width: auto;
