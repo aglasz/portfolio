@@ -293,7 +293,8 @@ padding-left: 2em;}
    @media screen and (max-width: 600px) 
   
   {
-
+    * {width:auto}
+/* 
     body {flex-direction: column; background-color: rgb(165, 195, 185);}
     .col-1 {width: auto;
       clip-path: inset(18% 0 4% 0); text-align: center;}
@@ -326,5 +327,5 @@ text-align: center;}
 .icon img{width: auto;
 height: 80px; padding: -1px;
   }
-.more {display: none;}
+.more {display: none;} */
 } 
