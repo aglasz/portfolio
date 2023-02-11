@@ -17,10 +17,7 @@
 
 .right {
     flex: 3;
-    /* clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 15% 21%); */
     clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 13% 83%);
-    /* clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0 79%); */
-    /* clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%); */
     background: radial-gradient(circle, #197278 75%, #283d3b 100%);
 }
   .col-1 {
