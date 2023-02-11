@@ -1,14 +1,13 @@
 * {
     box-sizing: border-box;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1vw;
   }
 
 
   body {
     display: flex;
-    min-height: 100em;
     flex-direction: row;
-    margin: 0;
     background-color: #e8e8e8;
     text-align: center;
     z-index: -1;
@@ -17,7 +16,7 @@
 
 .right {
     flex: 3;
-    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 13% 83%);
+    /* clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 13% 83%); */
     background: radial-gradient(circle, #197278 75%, #283d3b 100%);
 }
   .col-1 {
@@ -29,11 +28,14 @@
     margin-left: 0%;
     margin-top: 0%;
     position:auto;
-    /* clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%); */
-    clip-path: polygon(0% 0%, 75% 0%, 100% 21%, 75% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    /* clip-path: polygon(0% 0%, 75% 0%, 100% 21%, 75% 100%, 0% 100%); */
     z-index: 0;
     padding-left: 1em;
+  
   }
+
+
 
   .col-2 {
     display: flex;
@@ -55,7 +57,7 @@
 
   .content > article {
     flex: 4;
-    min-height: 60vh;
+    /* min-height: 60vh; */
     
   
   }
@@ -169,6 +171,7 @@ padding-left: 2em;}
 }
 .iconcontainer {width:100%;
   align-self: auto;
+  padding-left: 9em;
 
 }
 
@@ -180,7 +183,7 @@ padding-left: 2em;}
   text-align: center;
 }
 
-.icon img {scale: 110%;}
+.icon img {scale: 110%; width: 100px}
 
 
 .containerz {
@@ -258,6 +261,7 @@ padding-left: 2em;}
 
 
 
+
 .section1{
     border-radius: 5%;
     padding-top: 1em;
@@ -271,14 +275,18 @@ padding-left: 2em;}
     /* padding-right: 5em; */
     padding-top: 1em;}
 
+.section2 img {width: 50%;}
+
 .section3{
     border-radius: 5%;
     display: flex;
     padding: 1em;
     flex-direction: row;
-    margin: 0 -5px;
+   
     
     }
+
+.section3 img{width: 450px;}
 
 .fa {
     width: 1em;
@@ -288,44 +296,76 @@ padding-left: 2em;}
     z-index: 4;
   }
 
+  .containery {display: none;}
 
     
-   @media screen and (max-width: 600px) 
-  
-  {
-    * {width:auto;}
-/* 
-    body {flex-direction: column; background-color: rgb(165, 195, 185);}
-    .col-1 {width: auto;
-      clip-path: inset(18% 0 4% 0); text-align: center;}
-    .dropdown {width: 600px; margin-top: 0%; margin-right: 0%; position: fixed;}
+   @media screen and (max-width: 600px) {
+
+    article {font-size: 3vw;}
+
+      body {flex-direction: column; background-color: rgb(165, 195, 185);
+    width: 1vw;}
+    .contact2 {    text-align: left;
+      padding-left: .5em;
+      padding-top: 1.5em;
+      padding-right: 1em;
+      overflow: auto;
+      border-radius: 5%;
+      position: fixed;
+      margin-top: 5%;
+      z-index: 5;
+      background-color: #283d3b;
+      overflow: hidden;
+      padding-bottom: 1em;
+      color: #e0f0ea;}
+
+      .section3 img{width: 200px;}
+      .section3 {
+        flex-direction: row; width: .5vw;
+     } 
+    .col-1 {
+      clip-path: inset(0 0 0 0); text-align: center; width: 100%;}
+     .dropdown {margin-top: 0%; margin-right: 0%; position: fixed;font-size: xx-large;} 
     
- .section2 {width: auto;
+  .section2 {
     margin-left: 1em;
   padding-bottom: 1em;}
-    .section2 img {width: 425px;}
-    .section2 {width: 95%;}
-    .dropbtn {margin-left: 0px; z-index: 2;
-    }
-    .section3 {width: auto; 
-    flex-direction: row;
-  margin-left: 10%;}
+
+  .section2 img{width: 50vw;}
+  
+  
+
+.dropbtn {margin-left: 0px; z-index: 2; font-size: large;
+    } 
+
   
     
-    .right{ display: none;
+  .right{ display: none;
      }
     
-     .contact {position: relative;
+.contact2 {position: relative;
+  width: fit-content;
     margin-top: 20%;
   padding-bottom: 2em;
-text-align: center;}
-.containerz {width: 95%; 
-  } 
-.container2 {width: auto;text-align: center;}
+text-align: center;} 
+.containerz {width: 100%;border-radius: 5%;} 
+
+.containery {
+  display:inline-block;
+  background-color: #197278;
+  box-shadow: 5px 5px 10px 2px grey;
+  padding-bottom: 2em;
+  text-align: center;
+  border-radius: 5%;
+  margin: 0 1em;
+   width: 100%; 
+  
+}
+.container2 {text-align: center; font-size: large;}
   .icon span{transform: translateX(1); 
   padding-left: 7%;} 
-.icon img{width: auto;
-height: 80px; padding: -1px;
+.icon img{
+  width: 15vw;
   }
-.more {display: none;} */
+.more {display: none;} 
 } 
