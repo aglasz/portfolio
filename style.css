@@ -309,6 +309,7 @@ padding-left: 2em;}
     text-decoration: none;
     color: #9f1300;
     z-index: 4;
+    
   }
 
   .containery {display: none;}
@@ -319,12 +320,16 @@ padding-left: 2em;}
       body {flex-direction: column; background-color: rgb(165, 195, 185);}
     /* width: 1vw;} */
 
+    h3 {font-size: 250%;}
+    h1{font-size: 200%;}
+
       .section3 img{width: 300px;}
       .section3 {width: 95%;
         flex-direction: column; align-items: center;
      } 
     .col-1 {
       clip-path: inset(0 0 0 0); text-align: center; width: 100%;}
+    
 
       .content {
       text-align: center; width: 100%;}
@@ -336,7 +341,7 @@ padding-left: 2em;}
 
   .section2 img{width: 70vw;}
   
-  
+  .contact a {width: 1em;}
 
 .dropbtn {margin-left: 0px; z-index: 2; font-size: large;
     } 
